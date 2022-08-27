@@ -51,7 +51,7 @@ def google_search(query):
     return parse_results(response)
 
 
-results = google_search("online defensive driving school US")
+results = google_search("YOUR QUERY")
 
 csvFile = pd.DataFrame(results)
 csvFile.to_csv('results.csv', index=False)
