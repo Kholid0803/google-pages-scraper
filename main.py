@@ -55,3 +55,4 @@ results = google_search("online defensive driving school US")
 
 csvFile = pd.DataFrame(results)
 csvFile.to_csv('results.csv', index=False)
+csvFile.to_excel('results.xlsx', index=False)
