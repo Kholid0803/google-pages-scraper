@@ -14,7 +14,7 @@ def get_source(url):
         print(e)
 
 
-def get_results(query, start=10):
+def get_results(query, start=None):
 
     response = get_source(
         f"https://www.google.com/search?q={query}&start={start}")
